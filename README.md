@@ -4,6 +4,8 @@
 
 - Install [Node.js](https://nodejs.org/es/)
 
+- Install [Monogo](https://www.mongodb.com/try/download/community?tck=docs_server)
+
 - Install the backend repo (https://github.com/Edgar-Estrada/api-express-mongo)
 
 - Clone the repository.

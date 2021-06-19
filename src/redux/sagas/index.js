@@ -19,7 +19,6 @@ import {
   editProductErrorAction,
   buyProductErrorAction,
   buyProductOkAction,
-  downloadProductsAction,
   downloadPurchasesErrorAction,
   downloadPurchasesOkAction
 } from '../actions/products-actions'

@@ -3,7 +3,6 @@ import axios from 'axios'
 const axiosProduct = axios.create({
   baseURL: 'http://localhost:4000/'
 })
-
 export async function retrieveProductsDB() {
   return await axiosProduct.get('/productos')
 }
@@ -21,7 +20,6 @@ export async function editProductDB(product) {
 }
 
 export async function buyProductDB(id){
-  console.log("IDCompra: " + JSON.stringify(id))
   return await axiosProduct.get(`/compras/${id}`)
 }
 

@@ -33,7 +33,6 @@ const Products = () => {
                     { products.length === 0 ? 'No products yet.' : (
                       products.map(product =>
                         <Product
-                          key={product.id}
                           name={product.nombre}
                           brand={product.marca}
                           stock={product.stock}

@@ -10,7 +10,6 @@ const ListPurchases = () => {
   }, [])
 
   let purchases = useSelector(state => state.purchases.purchases)
-  console.log("Compras: " + JSON.stringify(purchases))
 
   return (
     <div>

@@ -7,4 +7,3 @@ export default combineReducers({
   purchases: purchasesReducer
 })
 
-// If we are going to have several reducers, we must use combine them because there can only be one
